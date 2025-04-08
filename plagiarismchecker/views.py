@@ -75,7 +75,7 @@ def twofiletest1(request):
     return render(request, 'pc/doc_compare.html',{'result': result})
     
 
-#two text (.txt, .docx)
+#two text compare (.txt, .docx)
 def twofilecompare1(request):
     value1 = ''
     value2 = ''
